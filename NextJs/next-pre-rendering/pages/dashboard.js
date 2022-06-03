@@ -14,6 +14,7 @@ function Dashboard() {
   }, [])
 
   if (isLoading) {
+    console.log(isLoading)
     return <h2>Loading...</h2>
   }
 
